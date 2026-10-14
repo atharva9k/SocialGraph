@@ -109,9 +109,9 @@ export const ProfileView: React.FC<ProfileViewProps> = ({
 
       {/* PHOTO 2: COSMIC ORBITAL PERSONAL SPACE SPHERE */}
       <div className="relative my-4 flex items-center justify-center min-h-[380px] select-none">
-        {/* Orbital Ring Path */}
-        <div className="absolute w-[320px] h-[320px] rounded-full border border-cyan-500/25 border-dashed pointer-events-none animate-spin" style={{ animationDuration: '60s' }} />
-        <div className="absolute w-[290px] h-[290px] rounded-full border border-purple-500/20 pointer-events-none" />
+        {/* Clean Orbital Ring Path */}
+        <div className="absolute w-[310px] h-[310px] rounded-full border border-cyan-400/20 pointer-events-none" />
+        <div className="absolute w-[280px] h-[280px] rounded-full border border-purple-500/15 pointer-events-none" />
 
         {/* Central Luminous Personal Avatar Globe */}
         <div className="relative z-10 flex flex-col items-center">
