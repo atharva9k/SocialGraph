@@ -1,0 +1,537 @@
+{
+  "users": [
+    {
+      "id": "usr_arjun_100",
+      "email": "arjun@socialgraph.dev",
+      "password_hash": "$2a$10$Y6DpNAbILEhaN2hYP51C1OVvw8vySVp1IzF87/1c2aZh1.TpAz0l6",
+      "full_name": "Arjun Rao",
+      "is_verified": true,
+      "verification_tier": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80",
+      "created_at": "2026-10-14T10:34:25.719Z",
+      "updated_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "usr_priya_200",
+      "email": "priya@socialgraph.dev",
+      "password_hash": "$2a$10$Y6DpNAbILEhaN2hYP51C1OVvw8vySVp1IzF87/1c2aZh1.TpAz0l6",
+      "full_name": "Dr. Priya Sharma",
+      "is_verified": true,
+      "verification_tier": 3,
+      "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=256&q=80",
+      "created_at": "2026-10-14T10:34:25.719Z",
+      "updated_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "usr_rohit_300",
+      "email": "rohit@socialgraph.dev",
+      "password_hash": "$2a$10$Y6DpNAbILEhaN2hYP51C1OVvw8vySVp1IzF87/1c2aZh1.TpAz0l6",
+      "full_name": "Rohit Verma",
+      "is_verified": true,
+      "verification_tier": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=256&q=80",
+      "created_at": "2026-10-14T10:34:25.719Z",
+      "updated_at": "2026-10-14T10:34:25.719Z"
+    }
+  ],
+  "spaces": [
+    {
+      "id": "spc_arjun_robotics",
+      "user_id": "usr_arjun_100",
+      "handle": "arjun_robotics",
+      "name": "Hardware & IoT Lab",
+      "bio": "Building low-cost environmental telemetry sensors & autonomous rovers. #robotics #embedded #iot",
+      "avatar_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=256&q=80",
+      "cover_url": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+      "visibility": "public",
+      "feed_filters": {
+        "pinned_topics": [
+          "robotics",
+          "embedded",
+          "iot",
+          "hardware",
+          "sensors"
+        ],
+        "content_types": [
+          "post",
+          "idea",
+          "opinion"
+        ]
+      },
+      "is_discoverable": true,
+      "active_intent": "Looking for PCB layout & embedded C++ collaborator in Mumbai",
+      "h3_res7": "87609206bffffff",
+      "city": "Mumbai",
+      "created_at": "2026-10-14T10:34:25.719Z",
+      "updated_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "spc_arjun_ideas",
+      "user_id": "usr_arjun_100",
+      "handle": "arjun_ideas",
+      "name": "Arjun's MyID Canvas",
+      "bio": "Documenting practical problems, prior-art research, and prototype specs. #ideas #water-tech #cleantech",
+      "avatar_url": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=256&q=80",
+      "cover_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+      "visibility": "public",
+      "feed_filters": {
+        "pinned_topics": [
+          "ideas",
+          "innovation",
+          "water-tech",
+          "cleantech"
+        ],
+        "content_types": [
+          "idea",
+          "post"
+        ]
+      },
+      "is_discoverable": true,
+      "active_intent": "Seeking environmental science co-researcher",
+      "h3_res7": "87609206bffffff",
+      "city": "Mumbai",
+      "created_at": "2026-10-14T10:34:25.719Z",
+      "updated_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "spc_arjun_personal",
+      "user_id": "usr_arjun_100",
+      "handle": "arjun_personal",
+      "name": "Arjun Rao",
+      "bio": "Street photography, espresso notes, road trips. #photography #travel #thoughts",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80",
+      "visibility": "public",
+      "feed_filters": {
+        "pinned_topics": [
+          "photography",
+          "travel",
+          "books"
+        ],
+        "content_types": [
+          "post",
+          "reel"
+        ]
+      },
+      "is_discoverable": false,
+      "created_at": "2026-10-14T10:34:25.719Z",
+      "updated_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "spc_priya_ai",
+      "user_id": "usr_priya_200",
+      "handle": "priya_ai",
+      "name": "Dr. Priya | Multilingual AI",
+      "bio": "Researcher in Indian language NLP & model alignment. Open for student mentorship. #ai #nlp #research",
+      "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=256&q=80",
+      "cover_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+      "visibility": "public",
+      "feed_filters": {
+        "pinned_topics": [
+          "ai",
+          "nlp",
+          "research",
+          "bhashini",
+          "deeplearning"
+        ],
+        "content_types": [
+          "post",
+          "opinion",
+          "idea"
+        ]
+      },
+      "is_discoverable": true,
+      "active_intent": "Mentoring engineering students in PyTorch & transformer fine-tuning",
+      "h3_res7": "87609206affffff",
+      "city": "Mumbai",
+      "created_at": "2026-10-14T10:34:25.719Z",
+      "updated_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "spc_rohit_hardware",
+      "user_id": "usr_rohit_300",
+      "handle": "rohit_hardware",
+      "name": "Rohit Verma | Firmware Eng",
+      "bio": "Firmware hacker, STM32 & ESP32 developer. #embedded #firmware #pcb",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=256&q=80",
+      "visibility": "public",
+      "feed_filters": {
+        "pinned_topics": [
+          "embedded",
+          "firmware",
+          "pcb",
+          "robotics"
+        ],
+        "content_types": [
+          "post",
+          "idea",
+          "opinion"
+        ]
+      },
+      "is_discoverable": true,
+      "active_intent": "Looking for IoT telemetry partner",
+      "h3_res7": "87609206bffffff",
+      "city": "Mumbai",
+      "created_at": "2026-10-14T10:34:25.719Z",
+      "updated_at": "2026-10-14T10:34:25.719Z"
+    }
+  ],
+  "follows": [
+    {
+      "id": "fol_1",
+      "follower_space_id": "spc_arjun_robotics",
+      "following_space_id": "spc_priya_ai",
+      "created_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "fol_2",
+      "follower_space_id": "spc_rohit_hardware",
+      "following_space_id": "spc_arjun_robotics",
+      "created_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "fol_1791980678552",
+      "follower_space_id": "spc_rohit_hardware",
+      "following_space_id": "spc_arjun_ideas",
+      "created_at": "2026-10-14T12:24:38.552Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "pst_idea_water_sensor",
+      "space_id": "spc_arjun_ideas",
+      "content": "Low-cost optical and turbidity water-quality probe for real-time river monitoring across rural districts.",
+      "media_urls": [
+        "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80"
+      ],
+      "content_type": "idea",
+      "audience": "public",
+      "tags": [
+        "water-tech",
+        "embedded",
+        "iot",
+        "cleantech",
+        "ideas"
+      ],
+      "why_recommended": "Matches your interest in embedded sensors and cleantech",
+      "like_count": 24,
+      "comment_count": 5,
+      "created_at": "2026-10-14T10:34:25.719Z",
+      "updated_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "pst_ai_debate_1",
+      "space_id": "spc_priya_ai",
+      "content": "Open Discourse: Will automated code synthesis replace software engineers, or elevate systems engineering?",
+      "media_urls": [],
+      "content_type": "opinion",
+      "audience": "public",
+      "tags": [
+        "ai",
+        "perspectives",
+        "software",
+        "discourse"
+      ],
+      "why_recommended": "Controversial topic with balanced community viewpoints",
+      "like_count": 42,
+      "comment_count": 12,
+      "created_at": "2026-10-14T10:34:25.719Z",
+      "updated_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "pst_reel_rover_test",
+      "space_id": "spc_arjun_robotics",
+      "content": "Field testing differential drive slip compensation on loose gravel! Watch the wheel torque adjustments in real-time. #robotics #rover #embedded",
+      "media_urls": [
+        "https://assets.mixkit.co/videos/preview/mixkit-circuit-board-details-41315-large.mp4"
+      ],
+      "content_type": "reel",
+      "audience": "public",
+      "tags": [
+        "robotics",
+        "rover",
+        "reels",
+        "hardware"
+      ],
+      "why_recommended": "Trending reel in the Mumbai Robotics community",
+      "like_count": 89,
+      "comment_count": 14,
+      "created_at": "2026-10-14T10:34:25.719Z",
+      "updated_at": "2026-10-14T10:34:25.719Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "cmt_1",
+      "post_id": "pst_idea_water_sensor",
+      "space_id": "spc_rohit_hardware",
+      "content": "Have you considered using an STM32WB55? It has BLE onboard and deep sleep down to 2uA which solves your battery budget.",
+      "created_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "cmt_2",
+      "post_id": "pst_idea_water_sensor",
+      "space_id": "spc_arjun_ideas",
+      "content": "Great pointer Rohit! The sleep current was indeed our biggest concern. Would love to collaborate on the power rail schematic.",
+      "parent_id": "cmt_1",
+      "created_at": "2026-10-14T10:34:25.719Z"
+    }
+  ],
+  "reactions": [],
+  "ideas": [
+    {
+      "id": "id_canvas_water",
+      "post_id": "pst_idea_water_sensor",
+      "space_id": "spc_arjun_ideas",
+      "title": "Sub-₹1500 Multi-Parameter Water Quality Telemetry Node",
+      "problem": "Commercial river water monitoring stations cost > ₹80,000 and require frequent calibration, resulting in massive geographic telemetry blind spots across peri-urban and rural water bodies in Maharashtra.",
+      "proposed_solution": "A solar-harvested floating buoy using multi-wavelength nephelometric turbidity sensing, pH probe with auto-cleaning wiper, and cellular NB-IoT/LoRa telemetry backhaul.",
+      "why_it_matters": "Enables high-density spatial mapping of industrial effluent dumping before contaminated water enters municipal drinking water intakes.",
+      "existing_solutions": "YSI ProDSS (commercial lab-grade, >$4000), basic Arduino turbidity sensors (rapid photodiode fouling after 48h, uncalibrated).",
+      "differentiation": "Integrated ultrasonic antifouling transducer + differential optical calibration curve accounting for ambient temperature drift.",
+      "technical_challenges": "Low-power sleep state under high turbidity, long-term biofouling on optical window, waterproof sealing at IP68 under thermal expansion.",
+      "required_skills": [
+        "Embedded C / FreeRTOS",
+        "Optical Sensor Calibration",
+        "SolidWorks / IP68 Enclosure Design",
+        "LoRaWAN Packet Forwarding"
+      ],
+      "status": "teaming",
+      "ai_prior_art_summary": "Literature review identifies 4 comparable IEEE papers on low-cost nephelometry (e.g. Wang et al. 2023). Key failure mode observed in prior art was optical photodiode degradation after 3 weeks in field deployment.",
+      "risks": [
+        "Biofilm buildup on optical emitter",
+        "Cellular coverage deadzones along riverbanks"
+      ],
+      "created_at": "2026-10-14T10:34:25.719Z"
+    }
+  ],
+  "perspectives": [
+    {
+      "id": "prs_a",
+      "post_id": "pst_ai_debate_1",
+      "space_id": "spc_priya_ai",
+      "stance_label": "Perspective A",
+      "title": "Rapid Commodity of Routine Syntax & Boilerplate",
+      "argument": "Large language models have reduced unit economics of standard CRUD logic to near zero. Entry-level engineering hiring for plain syntax translation will contract significantly.",
+      "evidence_sources": [
+        "Metaculus AI benchmark forecasts 2025-2026",
+        "GitHub Copilot enterprise developer velocity surveys"
+      ],
+      "created_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "prs_b",
+      "post_id": "pst_ai_debate_1",
+      "space_id": "spc_rohit_hardware",
+      "stance_label": "Perspective B",
+      "title": "Jevons Paradox: Software Demand Outpaces Supply",
+      "argument": "Cheaper software creation unlocks orders of magnitude more custom software, firmware, and domain automation that was previously economically unviable. Net engineering demand grows.",
+      "evidence_sources": [
+        "Economic analysis on Jevons Paradox in computing",
+        "ACM Communications: The expanding scope of domain systems"
+      ],
+      "created_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "prs_c",
+      "post_id": "pst_ai_debate_1",
+      "space_id": "spc_arjun_robotics",
+      "stance_label": "Perspective C",
+      "title": "Shift from Coding to Verification & Hardware Interfacing",
+      "argument": "The bottleneck moves from writing code to specifications, deterministic verification, safety boundaries, and interfacing with messy physical hardware where simulators fail.",
+      "evidence_sources": [
+        "IEEE Software: Formal verification in the age of generative models"
+      ],
+      "created_at": "2026-10-14T10:34:25.719Z"
+    }
+  ],
+  "proximity_intents": [
+    {
+      "id": "prx_1",
+      "space_id": "spc_arjun_robotics",
+      "intent_type": "collaborator",
+      "skills": [
+        "Embedded C",
+        "PCB Design",
+        "SolidWorks"
+      ],
+      "h3_index": "87609206bffffff",
+      "area_label": "Mumbai Suburban (~10km)",
+      "is_active": true,
+      "created_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "prx_2",
+      "space_id": "spc_priya_ai",
+      "intent_type": "mentor",
+      "skills": [
+        "PyTorch",
+        "NLP",
+        "Research Methodology"
+      ],
+      "h3_index": "87609206affffff",
+      "area_label": "Mumbai Central (~8km)",
+      "is_active": true,
+      "created_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "prx_3",
+      "space_id": "spc_rohit_hardware",
+      "intent_type": "collaborator",
+      "skills": [
+        "STM32",
+        "Firmware",
+        "FreeRTOS"
+      ],
+      "h3_index": "87609206bffffff",
+      "area_label": "Mumbai Suburban (~12km)",
+      "is_active": true,
+      "created_at": "2026-10-14T10:34:25.719Z"
+    }
+  ],
+  "consent_requests": [
+    {
+      "id": "req_test_1",
+      "sender_space_id": "spc_arjun_robotics",
+      "recipient_space_id": "spc_rohit_hardware",
+      "purpose": "Water Sensor LoRaWAN firmware",
+      "message": "Looking for firmware peer to collaborate on SPI sensor readout",
+      "status": "pending",
+      "created_at": "2026-10-14T10:34:25.724Z",
+      "updated_at": "2026-10-14T10:34:25.724Z"
+    },
+    {
+      "id": "req_test_1",
+      "sender_space_id": "spc_arjun_robotics",
+      "recipient_space_id": "spc_rohit_hardware",
+      "purpose": "Water Sensor LoRaWAN firmware",
+      "message": "Looking for firmware peer to collaborate on SPI sensor readout",
+      "status": "pending",
+      "created_at": "2026-10-14T11:15:23.181Z",
+      "updated_at": "2026-10-14T11:15:23.182Z"
+    },
+    {
+      "id": "req_test_1",
+      "sender_space_id": "spc_arjun_robotics",
+      "recipient_space_id": "spc_rohit_hardware",
+      "purpose": "Water Sensor LoRaWAN firmware",
+      "message": "Looking for firmware peer to collaborate on SPI sensor readout",
+      "status": "pending",
+      "created_at": "2026-10-14T12:26:34.175Z",
+      "updated_at": "2026-10-14T12:26:34.175Z"
+    },
+    {
+      "id": "req_test_1",
+      "sender_space_id": "spc_arjun_robotics",
+      "recipient_space_id": "spc_rohit_hardware",
+      "purpose": "Water Sensor LoRaWAN firmware",
+      "message": "Looking for firmware peer to collaborate on SPI sensor readout",
+      "status": "pending",
+      "created_at": "2026-10-14T12:42:22.617Z",
+      "updated_at": "2026-10-14T12:42:22.618Z"
+    },
+    {
+      "id": "req_test_1",
+      "sender_space_id": "spc_arjun_robotics",
+      "recipient_space_id": "spc_rohit_hardware",
+      "purpose": "Water Sensor LoRaWAN firmware",
+      "message": "Looking for firmware peer to collaborate on SPI sensor readout",
+      "status": "pending",
+      "created_at": "2026-10-14T13:10:55.332Z",
+      "updated_at": "2026-10-14T13:10:55.332Z"
+    }
+  ],
+  "messages": [],
+  "notifications": [
+    {
+      "id": "notif_1791983455332",
+      "recipient_space_id": "spc_rohit_hardware",
+      "actor_space_id": "spc_arjun_robotics",
+      "type": "consent_request",
+      "title": "New Connection Request",
+      "body": "A verified peer requested in-app collaboration: \"Water Sensor LoRaWAN firmware\"",
+      "target_id": "req_test_1",
+      "is_read": false,
+      "created_at": "2026-10-14T13:10:55.332Z"
+    },
+    {
+      "id": "notif_1791981742618",
+      "recipient_space_id": "spc_rohit_hardware",
+      "actor_space_id": "spc_arjun_robotics",
+      "type": "consent_request",
+      "title": "New Connection Request",
+      "body": "A verified peer requested in-app collaboration: \"Water Sensor LoRaWAN firmware\"",
+      "target_id": "req_test_1",
+      "is_read": false,
+      "created_at": "2026-10-14T12:42:22.618Z"
+    },
+    {
+      "id": "notif_1791980794175",
+      "recipient_space_id": "spc_rohit_hardware",
+      "actor_space_id": "spc_arjun_robotics",
+      "type": "consent_request",
+      "title": "New Connection Request",
+      "body": "A verified peer requested in-app collaboration: \"Water Sensor LoRaWAN firmware\"",
+      "target_id": "req_test_1",
+      "is_read": false,
+      "created_at": "2026-10-14T12:26:34.175Z"
+    },
+    {
+      "id": "notif_1791980678552",
+      "recipient_space_id": "spc_arjun_ideas",
+      "actor_space_id": "spc_rohit_hardware",
+      "type": "follow",
+      "title": "New Follower",
+      "body": "@rohit_hardware started following your space.",
+      "target_id": "spc_rohit_hardware",
+      "is_read": false,
+      "created_at": "2026-10-14T12:24:38.552Z"
+    },
+    {
+      "id": "notif_1791976523182",
+      "recipient_space_id": "spc_rohit_hardware",
+      "actor_space_id": "spc_arjun_robotics",
+      "type": "consent_request",
+      "title": "New Connection Request",
+      "body": "A verified peer requested in-app collaboration: \"Water Sensor LoRaWAN firmware\"",
+      "target_id": "req_test_1",
+      "is_read": true,
+      "created_at": "2026-10-14T11:15:23.182Z"
+    },
+    {
+      "id": "notif_1791974065724",
+      "recipient_space_id": "spc_rohit_hardware",
+      "actor_space_id": "spc_arjun_robotics",
+      "type": "consent_request",
+      "title": "New Connection Request",
+      "body": "A verified peer requested in-app collaboration: \"Water Sensor LoRaWAN firmware\"",
+      "target_id": "req_test_1",
+      "is_read": true,
+      "created_at": "2026-10-14T10:34:25.724Z"
+    },
+    {
+      "id": "notif_1",
+      "recipient_space_id": "spc_arjun_robotics",
+      "actor_space_id": "spc_rohit_hardware",
+      "type": "follow",
+      "title": "New Connection",
+      "body": "@rohit_hardware started following your Hardware & IoT Lab space",
+      "target_id": "spc_rohit_hardware",
+      "is_read": false,
+      "created_at": "2026-10-14T10:34:25.719Z"
+    },
+    {
+      "id": "notif_2",
+      "recipient_space_id": "spc_arjun_ideas",
+      "actor_space_id": "spc_rohit_hardware",
+      "type": "comment",
+      "title": "Idea Discussion",
+      "body": "@rohit_hardware commented on your Water Quality Telemetry Node",
+      "target_id": "pst_idea_water_sensor",
+      "is_read": false,
+      "created_at": "2026-10-14T10:34:25.719Z"
+    }
+  ],
+  "bookmarks": [],
+  "reports": [],
+  "blocks": []
+}

@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+*/dist/
+
+# Android Gradle builds & caches
+.gradle/
+*/.gradle/
+build/
+*/build/
+local.properties
+*/local.properties
+
+# Logs & temp
+*.log
+.DS_Store
+Thumbs.db
